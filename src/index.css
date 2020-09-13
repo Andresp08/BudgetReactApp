@@ -78,24 +78,24 @@ h2 {
   border-radius: .25rem;
 }
 .alert-primary {
-  color: #004085;
-  background-color: #cce5ff;
-  border-color: #b8daff;
+  color: #000000;
+  background-color: #87dfd6;
+  border-color: #87dfd6;
 }
 .alert-success {
-  color: #155724;
-  background-color: #d4edda;
-  border-color: #c3e6cb;
+  color: #000000;;
+  background-color: #a8df65;
+  border-color: #a8df65;
 }
 .alert-danger {
-  color: #721c24;
-  background-color: #f8d7da;
-  border-color: #f5c6cb;
+  color: #000000;
+  background-color: #f19292;
+  border-color: #f19292;
 }
 .alert-warning {
-  color: #856404;
-  background-color: #fff3cd;
-  border-color: #ffeeba;
+  background-color: #f9d56e;
+  border-color: #f9d56e;
+  color: #000000;
 }
 .gastos-realizados  {
   margin-bottom: 2rem;
@@ -114,9 +114,12 @@ h2 {
   justify-content: space-between;
   align-items: center;
   margin:0;
+  
 }
 .gastos-realizados li p .gasto {
-  background-color: #004085;
-  padding: 1rem;
-  color:white;
+  background-color: #c3aed6;
+  padding: 0.6rem;
+  /* border: 1px solid black; */
+  border-radius: 10%;
+  color:black;
 }
